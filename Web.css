@@ -1,0 +1,344 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     font-family: 'Roboto', sans-serif;
+ }
+ body{
+color: #fff;
+     background-color: #0f1111ee;
+ 
+ }
+ nav{
+     display: flex;
+     justify-content: space-between;
+     background-color: #7c7a85ee;
+     padding: 17px;
+     color: #fff;
+     box-shadow: 0px 2px 2px 2px rgb(110, 111, 109);
+ }
+ nav .logo{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 22px;
+     font-size: 30px;
+     font-weight:500;
+     color: orangered;
+ }
+ ul{
+     margin-right: 45px;
+     margin-top: 7px;
+     font-weight: 400;
+ }
+ nav ul li{
+     list-style: none;
+ }
+ ul li a{
+     margin-inline: 22px;
+     font-size: 20px;
+ }
+ ul li i{
+     font-size: 22px;
+ }
+ ul li #home{
+     color: rgb(252, 10, 119);
+     
+ }
+ ul li a:hover{
+     border-bottom: 2px solid rgb(9, 54, 233);
+     cursor: pointer;
+ }
+ ul li i:hover{
+     color: rgb(204, 81, 116);
+     cursor: pointer;
+ }
+ .main{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #pic{
+     margin-top:30px;
+     height:500px;
+     width: 400px;  
+     box-shadow:10px 5px 30px 5px rgb(251, 236, 21);
+ }
+ 
+
+ .main .mainText{
+     margin-top: 144px;
+     color: rgb(79, 220, 14);
+    
+     
+ }
+ .mainText h1{
+     font-size: 63px;
+     
+ }
+ .mainText .top{
+     color: rgb(139, 6, 240);
+ }
+ .mainText button{
+     width: 145px;
+     height: 40px;
+     background-color: rgb(34, 238, 228);
+     border: none;
+     font-size: 22px;
+     color: white;
+     margin-top: 24px;
+ }
+ .mainText p{
+     margin-top: 12px;
+     color: wheat;
+     font-size: 15px;
+ }
+ .mainText button:hover{
+     border: 3px solid rgb(16, 252, 252);
+     background-color: transparent;
+     color: rgb(252, 253, 253);
+ }
+ 
+ .head h1{
+     text-align: center;
+     padding: 33px;
+     margin-top: 32px;
+ }
+ .head span{
+     color: rgb(222, 45, 199);
+ }
+ 
+ .card{
+     display: flex;
+     justify-content: center;
+     
+ }
+ .card .crd{
+    
+     width: 300px;
+     height: 500px;
+     border-radius:10px ;
+     background-color: #0c0c0a;
+     margin-inline: 11px;
+     box-shadow: 10px 8px 9px 7px rgb(252, 90, 36);
+    
+ }
+ .crd img{
+     width: 85%;
+     padding: 22px;
+     border-radius: 31px;
+ 
+ }
+ .crdText{
+     margin-left: 16px;
+     padding: 8px;
+     text-shadow: red;
+     color: #fff;
+ }
+ .crdText button{
+     width: 110px;
+     height: 33px;
+     border: none;
+     background-color: rgb(33, 44, 250);
+     color: white;
+     font-size: 19px;
+     margin-top: 11px;
+ }
+ .crdText i{
+     color: rgb(253, 249, 25);
+ }
+ 
+ .blog{
+     display: flex;
+     justify-content: center;
+     width: 500px;
+     height: 300px;
+     
+     background-color: #ef8ce9;
+     margin-inline: 22px;
+     border-radius: 11px;
+     box-shadow: 10px 1px 10px 15px rgb(79, 220, 236);
+    
+ }
+ .blog:hover{
+     transition: 0.5s ease;
+     width: 520px;
+     height: 320px;
+ }
+ .blog img{
+     border-radius:40px;
+     padding: 22px;
+     width: 85%;
+ }
+ .blogText{
+     color: rgb(83, 20, 128);
+     padding: 12px;
+     font-family: cursive;
+     margin-top: 33px;
+     font-size: 20px;
+ }
+ .blogText a{
+     width: 130px;
+     padding: 4px;
+     height: 18px;
+     background-color: rgb(245, 145, 15);
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     text-decoration: none;
+     border-radius: 5px;
+ position: relative;
+ top: 33px;
+ }
+ .letter{
+     display: flex;
+     justify-content: space-between;
+     color: rgb(22, 18, 18);
+     background-color:rgb(10, 10, 177);
+     padding: 43px;
+ }
+ .inp{
+     display: flex;
+ }
+ .inp input{
+     width: 330px;
+     height: 33px;
+     outline: none;
+     font-size: 18px;
+     border: none;
+ }
+ .inp button{
+     width: 100px;
+     height: 33px;
+     background-color: rgb(2, 173, 173);
+     color: white;
+     border: none;
+ }
+ 
+ .footer{
+     display: flex;
+     justify-content: center;
+     padding: 53px;
+ }
+ .footer .footerText{
+     margin-inline: 85px;
+ }
+ .footerText p{
+     margin-top: 11px;
+ }
+ 
+ /* about */
+ .about{
+     display: none;
+ }
+ .aboutus{
+     background-color: rgb(1, 1, 42);
+     color: white;
+     padding: 56px;
+     font-size: 19px;
+ }
+ .me{
+     display: flex;
+     justify-content: center;
+     width: 700px;
+     background-color: #0792e9;
+     padding: 33px;
+     margin-left: 18%;
+     margin-top: 7%;
+ }
+ .me img{
+     width: 54%;
+ }
+ 
+ /* /contact */
+ 
+ .contact{
+     display: none;
+ }
+ .contactus{
+     background-color: rgb(1, 1, 42);
+     color: white;
+     padding: 56px;
+     font-size: 19px;
+ }
+ 
+ .contactMe{
+     display: flex;
+     justify-content: center;
+     width: 1000px;
+     margin-top: 5%;
+     background-color: #fff;
+     margin-left: 10%;
+ 
+ }
+ .contactMe img{
+     width: 55%;
+ }
+ 
+ .contactText{
+     padding: 22px;
+     width: 600px;
+ }
+ .contactText p{
+     margin-top: 12px;
+ }
+ .form{
+     text-align: center;
+     margin-top: 5%;
+     padding: 22px;
+ }
+ .form input{
+     width: 300px;
+     padding: 5px;
+     height: 27px;
+     margin-top: 11px;
+ }
+ .form button{
+     width: 300px;
+     height: 36px;
+     background-color: rgb(2, 54, 54);
+     color: white;
+     font-size: 22px;
+     border: none;
+     margin-top: 22px;
+     
+ }
+ 
+ /* cart */
+ 
+ .cart{
+     display: flex;
+     justify-content: center;
+     display: none;
+ 
+ }
+ .cartText{
+     padding: 22px;
+     margin-top: 22px;
+     color: #fff;
+ }
+ .cartText p{
+     color: wheat;
+     margin-top: 12px;
+ }
+ .cartText h2{
+     color: wheat;
+     margin-top: 11px;
+ }
+ .cartText .btn button{
+     width: 140px;
+     height: 40px;
+     background-color: rgb(255, 89, 0);
+     color: white;
+     border: none;
+     font-size: 22px;
+     margin-inline: 11px;
+     margin-top: 22px;
+ }
+ .cartText .back{
+     width: 140px;
+     height: 40px;
+     background-color:rgb(215, 225, 225);
+     color: rgb(21, 20, 20);
+     border: none;
+     font-size: 22px;
+     margin-inline: 11px;
+     margin-top: 22px;
+     margin-top: 22px;
+ }
